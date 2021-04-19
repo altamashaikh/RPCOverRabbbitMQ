@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliVeggie.Queue.Messages", "DeliVeggie.Queue.Messages\DeliVeggie.Queue.Messages.csproj", "{BE716913-B7D8-4A8A-B4CA-1D41EAF66349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE716913-B7D8-4A8A-B4CA-1D41EAF66349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE716913-B7D8-4A8A-B4CA-1D41EAF66349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE716913-B7D8-4A8A-B4CA-1D41EAF66349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE716913-B7D8-4A8A-B4CA-1D41EAF66349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A1138A0-A06B-4822-BF53-26A783469738}
+	EndGlobalSection
+EndGlobal

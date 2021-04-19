@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ProductController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeliVeggie.Client.Rpc\DeliVeggie.Client.Rpc.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DeliVeggie.Queue.Messages">
+      <HintPath>..\..\DeliVeggie.Queue.Messages\DeliVeggie.Queue.Messages\bin\Release\net5.0\DeliVeggie.Queue.Messages.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
